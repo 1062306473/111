@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>轮播图</title>
+  <link rel="stylesheet" href="css/rotation.css">
+  
+</head>
+<body>
+  <div class="container"  
+  onmouseenter="clearTimer()"
+   onmouseleave="timeStart()">
+    <div class="wrap" style="left: 0px;" >
+      <img src="img/1.jpg" id="img" alt="1">
+      <img src="img/2.jpg" id="img" alt="2">>
+      <img src="img/3.jpg" id="img" alt="3">>
+      <img src="img/4.jpg" id="img" alt="4">>
+      <img src="img/5.jpg" id="img" alt="5">>
+    </div>
+    <div class="buttons">
+      <span class="on"></span>
+      <span ></span>
+      <span ></span>
+      <span ></span>
+      <span ></span>
+    </div>
+    <a href="javascript:void (0);" rel="external nofollow" class="arrow arrow_left" onClick="prev()"><</a>
+    <a href="javascript:void (0);" rel="external nofollow" class="arrow arrow_right" onClick="next()">></a>
+  </div>
+</body>
+<script src="sowing1.js"></script>
+</html>
